@@ -77,17 +77,6 @@
 		        var Hemispheric_Light = new BABYLON.HemisphericLight("Hemispheric_Light", new BABYLON.Vector3(0, 1, 0), Scene);
 		        Hemispheric_Light.intensity = 0.3;
 
-
-				// #####################
-	            // ##### HIGHLIGHT #####
-				// #####################
-
-// 				var hl = new BABYLON.HighlightLayer("hl1", Scene);
-				
-// 			    var sphere = BABYLON.Mesh.CreateSphere("sphere1", 16, 2, Scene);
-// 			    sphere.position = new BABYLON.Vector3(-16.2, 10, -10);
-// 				hl.addMesh(sphere, new BABYLON.Color3.Green());
-
 				
 				// #####################
 	            // ##### FLAGSTONE #####
@@ -105,6 +94,35 @@
 			        }
 			        
 			        container.addAllToScene();
+				});
+
+
+				// ###################
+	            // ##### TWITTER #####
+				// ###################
+
+				var Icon_Twitter_Meshes;
+				BABYLON.SceneLoader.LoadAssetContainer("include/babylon/gltf/", "Icon_Twitter.gltf", Scene, function (container) {
+				    var meshes = container.meshes;
+				    Icon_Twitter_Meshes = meshes;
+				    var materials = container.materials;
+
+			        for (var i = 0; i < meshes.length; i++){
+			            meshes[i].receiveShadows=true; 
+			            Shadow_Generator_Top.addShadowCaster(meshes[i], true);
+			            Shadow_Generator_Left.addShadowCaster(meshes[i], true);
+			            Shadow_Generator_Right.addShadowCaster(meshes[i], true);
+			        }
+
+			        for (var i = 0; i < meshes.length; i++){    
+			            meshes[i].actionManager = new BABYLON.ActionManager(Scene);
+			            Shadow_Generator_Right.addShadowCaster(meshes[i], true);
+			            meshes[i].actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickUpTrigger, function () {
+				    		alert('player clicked');
+				    	}));
+			        }
+				    
+				    container.addAllToScene();
 				});
 				
 
