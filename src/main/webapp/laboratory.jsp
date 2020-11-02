@@ -127,7 +127,7 @@
 			            meshes[i].actionManager = new BABYLON.ActionManager(Scene);
 			            Shadow_Generator_Right.addShadowCaster(meshes[i], true);
 			            meshes[i].actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickUpTrigger, function () {
-				    		alert('player clicked');
+			            	window.open("https://twitter.com/FedericoMoko");
 				    	}));
 			        }
 				    
