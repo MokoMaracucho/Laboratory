@@ -13,6 +13,10 @@
 	      	</li>
 	      	
     		<li class="nav-item">
+        		<a class="nav-link" href="https://twitter.com/FedericoMoko" target="_blank">Photographie <span class="sr-only">(current)</span></a>
+      		</li>
+	      	
+    		<li class="nav-item">
         		<a class="nav-link" href="https://twitter.com/FedericoMoko" target="_blank">Twitter <span class="sr-only">(current)</span></a>
       		</li>
     	</ul>

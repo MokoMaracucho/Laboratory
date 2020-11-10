@@ -1,0 +1,134 @@
+Exporter version: 6.4.3, Blender version: 2.83.4
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  /Users/moko/spring-workspace/laboratory/src/main/webapp/babylon/babylon/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  Chiva
+		processing begun of material:  Material.002
+		num positions      :  24262
+		num normals        :  24262
+		num tangents       :  0
+		num uvs            :  48524
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  9086
+		WARNING: # of 0 area faces found:  26
+	processing begun of mesh:  Sphere
+		WARNING: No materials have been assigned: 
+		num positions      :  724
+		num normals        :  724
+		num tangents       :  0
+		num uvs            :  1448
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  245
+	processing begun of mesh:  Sphere.001
+		WARNING: No materials have been assigned: 
+		num positions      :  724
+		num normals        :  724
+		num tangents       :  0
+		num uvs            :  1448
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  245
+	processing begun of mesh:  Cylinder
+		WARNING: No materials have been assigned: 
+		num positions      :  1053
+		num normals        :  1053
+		num tangents       :  0
+		num uvs            :  2106
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  412
+	processing begun of mesh:  Cylinder.001
+		WARNING: No materials have been assigned: 
+		num positions      :  1053
+		num normals        :  1053
+		num tangents       :  0
+		num uvs            :  2106
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  412
+	processing begun of mesh:  Cylinder.002
+		WARNING: No materials have been assigned: 
+		num positions      :  1053
+		num normals        :  1053
+		num tangents       :  0
+		num uvs            :  2106
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  412
+	processing begun of mesh:  Cylinder.003
+		WARNING: No materials have been assigned: 
+		num positions      :  1053
+		num normals        :  1053
+		num tangents       :  0
+		num uvs            :  2106
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  412
+	processing begun of mesh:  Sphere.002
+		WARNING: No materials have been assigned: 
+		num positions      :  757
+		num normals        :  757
+		num tangents       :  0
+		num uvs            :  1514
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  256
+	processing begun of mesh:  Sphere.003
+		WARNING: No materials have been assigned: 
+		num positions      :  757
+		num normals        :  757
+		num tangents       :  0
+		num uvs            :  1514
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  256
+	processing begun of mesh:  Sphere.004
+		WARNING: No materials have been assigned: 
+		num positions      :  757
+		num normals        :  757
+		num tangents       :  0
+		num uvs            :  1514
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  256
+	processing begun of mesh:  Chiva.001
+		processing begun of material:  Material.002
+		registered as also a user of material:  Material.002
+		num positions      :  31076
+		num normals        :  31076
+		num tangents       :  0
+		num uvs            :  62152
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  11608
+		WARNING: # of 0 area faces found:  26
+	processing begun of light (DIRECTIONAL):  Sun
+	processing begun of light (DIRECTIONAL):  Sun.001
+	processing begun of light (DIRECTIONAL):  Sun.002
+========= Writing of JSON file started =========
+	writing mesh:  Chiva
+	writing mesh:  Sphere
+	writing mesh:  Sphere.001
+	writing mesh:  Cylinder
+	writing mesh:  Cylinder.001
+	writing mesh:  Cylinder.002
+	writing mesh:  Cylinder.003
+	writing mesh:  Sphere.002
+	writing mesh:  Sphere.003
+	writing mesh:  Sphere.004
+	writing mesh:  Chiva.001
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.5173 secs

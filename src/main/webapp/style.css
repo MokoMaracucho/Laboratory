@@ -10,4 +10,14 @@ html, body {
 	width: 100%;
 	height: 100%;
 	touch-action: none;
+	z-index: 0;
+}
+
+#divFooter {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 24px;
+	z-index: 1;
 }

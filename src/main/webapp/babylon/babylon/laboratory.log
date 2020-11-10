@@ -1,0 +1,124 @@
+Exporter version: 6.4.5, Blender version: 2.90.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  /Users/moko/spring-workspace/laboratory/src/main/webapp/babylon/babylon/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  Flagstone
+		WARNING: No materials have been assigned: 
+		num positions      :  29
+		num normals        :  29
+		num tangents       :  0
+		num uvs            :  58
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  12
+	processing begun of mesh:  Chimney
+		WARNING: No materials have been assigned: 
+		num positions      :  431
+		num normals        :  431
+		num tangents       :  0
+		num uvs            :  862
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  188
+	processing begun of mesh:  Speaker_Left
+		WARNING: No materials have been assigned: 
+		num positions      :  890
+		num normals        :  890
+		num tangents       :  0
+		num uvs            :  1780
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  365
+	processing begun of mesh:  Speaker_Right
+		WARNING: No materials have been assigned: 
+		num positions      :  890
+		num normals        :  890
+		num tangents       :  0
+		num uvs            :  1780
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  365
+	processing begun of mesh:  Persian_Carpet
+		WARNING: No materials have been assigned: 
+		num positions      :  23
+		num normals        :  23
+		num tangents       :  0
+		num uvs            :  46
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  Amor_Amor
+		WARNING: No materials have been assigned: 
+		num positions      :  128
+		num normals        :  128
+		num tangents       :  0
+		num uvs            :  256
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  68
+	processing begun of mesh:  Mirror
+		animation processing begun
+			processing action MirrorAction.001:  in[358 - 800], out[0 - 800]
+		processing begun of material:  Material.017
+		num positions      :  13
+		num normals        :  13
+		num tangents       :  0
+		num uvs            :  26
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  10
+	processing begun of mesh:  Daisy
+		WARNING: No materials have been assigned: 
+		num positions      :  4
+		num normals        :  4
+		num tangents       :  0
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  2
+	processing begun of mesh:  Wall_Left
+		WARNING: No materials have been assigned: 
+		num positions      :  734
+		num normals        :  734
+		num tangents       :  0
+		num uvs            :  1468
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  300
+	processing begun of mesh:  Mirror_Frame
+		processing begun of material:  Mirror
+		num positions      :  543
+		num normals        :  543
+		num tangents       :  0
+		num uvs            :  1086
+		num uvs2           :  0
+		num colors         :  0
+		num triangles      :  216
+	processing begun of light (HEMI FROM AREA):  Area_Top
+	processing begun of light (HEMI FROM AREA):  Area_Left
+	processing begun of light (HEMI FROM AREA):  Area_Right
+	WARNING: Only directional (sun) and spot types of lamp are valid for shadows thus ignored: Area_Right
+========= Writing of JSON file started =========
+	writing mesh:  Flagstone
+	writing mesh:  Chimney
+	writing mesh:  Speaker_Left
+	writing mesh:  Speaker_Right
+	writing mesh:  Persian_Carpet
+	writing mesh:  Amor_Amor
+	writing mesh:  Mirror
+	writing mesh:  Daisy
+	writing mesh:  Wall_Left
+	writing mesh:  Mirror_Frame
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.1031 secs
