@@ -3,6 +3,6 @@
 
 <div id="divFooter">
 <!-- 	<p> -->
-		<a href="mailto:desmoulin.federico@gmail.com">Me contacter </a>
+		<a id="aMailto" href="mailto:desmoulin.federico@gmail.com">Me contacter </a>
 <!-- 	</p> -->
 </div>

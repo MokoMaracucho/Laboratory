@@ -10,7 +10,7 @@
 		<%@ page isELIgnored="false" %>
 		
 		<meta charset="UTF-8">
-		<link href="<c:url value="style.css" />" rel="stylesheet">
+		<link href="<c:url value="include/css/style.css" />" rel="stylesheet">
 		
     	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     	<script src="https://code.jquery.com/pep/0.4.1/pep.js"></script>
@@ -24,17 +24,23 @@
 	</head>
 	
 	<body>
+		<header>
+			<c:import url="include/navbar.jsp" ></c:import>
+		</header>
 <!-- 		<header> -->
-<%-- 			<c:import url="include/navbar.jsp" ></c:import> --%>
+<!-- 			<div id="divHeader"></div> -->
 <!-- 		</header> -->
 		
-<%-- 		<canvas id="renderCanvas"></canvas> --%>
+<!-- 		<div class="container-fluid"> -->
+<%-- 			<canvas id="renderCanvas"></canvas> --%>
+<!-- 		</div> -->
 		
 		<footer>
+<!-- 			<div id="divFooter"></div> -->
 			<c:import url="include/footer.jsp" ></c:import>
 		</footer>
 	
-		<script src="babylon/scripts/scene.js"></script>
-		<script src="jquery/css.js"></script>
+<!-- 		<script src="babylon/scripts/scene.js"></script> -->
+<!-- 		<script src="jquery/css.js"></script> -->
 	</body>
 </html>

@@ -9,6 +9,14 @@ html, body {
 #renderCanvas {
 	width: 100%;
 	height: 100%;
+	margin: 0;
 	touch-action: none;
 	z-index: 0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	height: 24px;
+	z-index: 1;
 }
