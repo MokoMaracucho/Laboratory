@@ -25,15 +25,16 @@
 	
 	<body>
 <!-- 		<header> -->
-<%-- 			<c:import url="import/navbar.jsp" ></c:import> --%>
+<%-- 			<c:import url="include/navbar.jsp" ></c:import> --%>
 <!-- 		</header> -->
 		
 <%-- 		<canvas id="renderCanvas"></canvas> --%>
 		
 		<footer>
-			<c:import url="import/footer.jsp" ></c:import>
+			<c:import url="include/footer.jsp" ></c:import>
 		</footer>
 	
 		<script src="babylon/scripts/scene.js"></script>
+		<script src="jquery/css.js"></script>
 	</body>
 </html>
